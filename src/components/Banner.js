@@ -44,7 +44,7 @@ export const Banner = () => {
     return () => {
       clearInterval(ticker);
     };
-  }, [text, delta, tick]);
+  }, [text, delta, isDeleting, loopNum]);
 
   return (
     <section className="banner" id="home">
